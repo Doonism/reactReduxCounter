@@ -1,22 +1,42 @@
-.App {
+.counter {
+  position: relative;
+  font-size: 35px;
+  margin: auto;
   text-align: center;
+  padding-bottom: 20px;
+  text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
+.button {
+  position: relative;
+  background-color: grey;
+  width: 10%;
+  margin: 1% 45%;
+  font-size: 25px;
+  border: solid;
+  border-width: 2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.background {
+  background-color: darkcyan;
+  height: 100vh;
+  width: 100vw;
 }
 
-.App-link {
-  color: #09d3ac;
+.title {
+  text-align: center;
+  font-family: monospace;
+  color: navy;
+  font-size: 45px;
+  padding: 10px;
+}
+
+.resetButton {
+  position: relative;
+  width: 20%;
+  height: 10%;
+  margin: 5% 40%;
+  background-color: lightcoral;
+  border: solid;
 }
